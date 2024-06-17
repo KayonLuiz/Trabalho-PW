@@ -1,0 +1,278 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Recursos/Fundo.jpg");
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#inicio{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+#botoesCategoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+#logo{
+    width: 550px;
+    height: 400px;
+	padding-top: 10px;
+    max-zoom: 150%;
+    min-zoom: 50%;
+}
+#info{
+    border: 7px black solid;
+    border-radius: 3px;
+    margin-top: 10px;
+	padding-top: 7px;
+    border-color: aqua;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-zoom: 150%;
+    min-zoom: 50%;
+}
+#texto{
+    font-size: 30px;
+    color:aqua;
+    max-zoom: 150%;
+    min-zoom: 50%;
+}
+#escolha{
+    font-size: 25px;
+    width: 190px;
+    height: 45px;
+    text-align: center;
+    margin-top: 10px;
+    border: 7px black solid;
+    border-radius: 3px;
+    color:aqua;
+    background-color: transparent;
+    border-color:hotpink;
+    max-zoom: 150%;
+    min-zoom: 50%;
+}
+.escolhaCategorias{
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 7px black solid;
+    border-radius: 3px;
+    color:aqua;
+    background-color: transparent;
+    border-color:hotpink;
+    max-zoom: 150%;
+    min-zoom: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+#quiz{
+	display: none;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+#plac{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	padding-top: 5px
+}
+.alternativas{
+    font-size: 22px;
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: transparent;
+    max-zoom: 150%;
+    min-zoom: 50%;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	align-self: center;
+}
+
+#questao1{
+	display: none;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+#questao2{
+	display: none;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+#questao3{
+	display: none;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+#questao4{
+	display: none;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+#questao5{
+	display: none;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+#a1q1{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a2q1{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a3q1{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a4q1{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a1q2{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a2q2{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a3q2{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a4q2{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a1q3{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a2q3{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a3q3{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a4q3{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a1q4{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a2q4{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a3q4{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a4q4{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a1q5{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a2q5{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a3q5{
+    border: 7px aqua solid;
+    color:yellow;
+}
+#a4q5{
+    border: 7px aqua solid;
+    color:yellow;
+}
+
+.pergunta{
+    border: 1px hotpink solid;
+    background-color: hotpink;
+    color: yellow;
+    font-size: 20px;
+    width: 100%;
+    height: 75px;
+	text-align: center;
+}
+#placar{
+    background-color: hotpink;
+    color: yellow;
+    border: 7px aqua solid;
+    width: 114px;
+    height: 40px;
+    font-size: 30px;
+	border-top-color: hotpink;
+	border-radius: 3px;
+}
+h1{
+    color: yellow;
+}
+#textoplacar{
+	border: 7px aqua solid;
+    background-color: hotpink;
+    color: yellow;
+    font-size: 25px;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+	width: 100px;
+    height: 30px;
+	border-bottom-color: hotpink;
+	border-radius: 3px;
+}
+#fim{
+	display: none;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+#voltar{
+	font-size: 30px;
+    width: 350px;
+    height: 70px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: transparent;
+    max-zoom: 150%;
+    min-zoom: 50%;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	align-self: center;
+	border: 7px aqua solid;
+    color:yellow;
+}
